@@ -210,6 +210,8 @@ int main(int argc, char *argv[]) {
     }
 
     SDL_Quit();
+    SDL_DestroyWindow(window);
+    SDL_DestroyRenderer(renderer);
 
     return EXIT_SUCCESS;
 }
