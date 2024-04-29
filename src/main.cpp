@@ -1,7 +1,5 @@
 #include "virtual_machine.hpp"
 #include <SDL2/SDL.h>
-#include <SDL_stdinc.h>
-#include <SDL_video.h>
 #include <chrono>
 #include <cstdlib>
 #include <exception>
