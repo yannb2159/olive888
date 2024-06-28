@@ -1,7 +1,11 @@
 #ifndef AUDIO_HPP
 #define AUDIO_HPP
 
-#include <SDL2/SDL_mixer.h>
+#ifdef __APPLE__
+  #include <SDL_mixer.h>
+#else
+  #include <SDL2/SDL_mixer.h>
+#endif
 
 class Audio {
   public:
